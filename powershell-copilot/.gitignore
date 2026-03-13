@@ -1,0 +1,16 @@
+# Auto-generated LanceDB data (created at runtime inside Docker)
+data/vectordb/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variable files
+.env

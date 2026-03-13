@@ -1,0 +1,11 @@
+services:
+  copilot:
+    build: .
+    volumes:
+      - ./data/scripts:/app/data/scripts
+      - ./data/vectordb:/app/data/vectordb
+    environment:
+      - VOYAGE_API_KEY=${VOYAGE_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY} # Swap for OPENAI_API_KEY if using GPT
+    stdin_open: true # Allows you to interact with the terminal
+    tty: true
