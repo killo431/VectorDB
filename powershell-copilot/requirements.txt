@@ -1,0 +1,8 @@
+lancedb>=0.5.0
+voyageai>=0.2.0
+langchain>=0.1.0,<0.3.0
+langchain-text-splitters
+langchain-google-genai
+pandas
+pyarrow
+tantivy
